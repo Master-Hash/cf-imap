@@ -15,6 +15,7 @@ export type Email = {
     to: string,
     subject: string,
     messageID: string,
+    inReplyTo?: string,
     contentType: string,
     date: Date,
     raw: string,
